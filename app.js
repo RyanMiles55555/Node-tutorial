@@ -1,6 +1,6 @@
-const _ = require("lodash");
+//setInterval asynch Javascript example
 
-const items = [1, [2, [3, [4]]]];
-const newItems = _.flattenDeep(items);
-console.log(newItems);
-console.log("Hello everyone");
+setInterval(() => {
+  console.log("Hello world");
+}, 2000);
+console.log("This will run first");
